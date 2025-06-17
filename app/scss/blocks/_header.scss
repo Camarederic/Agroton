@@ -1,0 +1,28 @@
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    font-family: "NunitoSans-Variable", sans-serif;
+    font-weight: 500;
+  }
+  &__contact {
+    text-transform: uppercase;
+    padding: 10px 40px;
+    display: inline-block;
+    background-color: #0e0d0d;
+    color: #fff;
+    border-radius: 50px;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+    gap: 0 30px;
+  }
+  &__link {
+    text-transform: uppercase;
+  }
+}
