@@ -1,11 +1,20 @@
 body {
+  font-family: "NunitoSans-Variable", sans-serif;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 1.35;
   color: #0e0d0d;
   background-color: #fdfdf0;
 }
 
 .container {
   max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.container-big {
+  max-width: 1840px;
   margin: 0 auto;
   padding: 0 10px;
 }
