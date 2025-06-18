@@ -1,0 +1,144 @@
+.about {
+  margin-bottom: 180px;
+  &__top {
+    text-align: center;
+    color: #fdfdf0;
+    text-transform: uppercase;
+    background-image: url("../images/about-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 748px;
+  }
+  &__title {
+    font-family: "WorkSans-SemiBold", sans-serif;
+    font-weight: 600;
+    font-size: 250px;
+    line-height: 0.9;
+    padding-top: 85px;
+  }
+  &__text {
+    font-family: "WorkSans-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  &__achievements {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -55px;
+    margin-bottom: 90px;
+  }
+  &__achievement {
+    border-radius: 20px;
+    background-color: #f4f4e7;
+    max-width: 580px;
+    padding: 14px 10px;
+    display: flex;
+    gap: 0 25px;
+  }
+
+  &__achievement-imgbox {
+    min-width: 214px;
+    position: relative;
+  }
+
+  &__achievement-arrow {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 5px;
+  }
+  &__achievement-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+  &__achievement-text {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  &__stats {
+    margin-bottom: 70px;
+    border-radius: 20px;
+    background-color: #f4f4e7;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 18px;
+    gap: 0 90px;
+  }
+  &__stats-item {
+    text-align: center;
+    width: 300px;
+  }
+  &__stats-item dt {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: "WorkSans-SemiBold", sans-serif;
+  }
+
+  &__stats-item dd {
+    margin: 0;
+    color: #0e0d0d;
+    font-size: 22px;
+    opacity: 0.7;
+  }
+  &__progress-text {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.17;
+    font-family: "WorkSans-Light", sans-serif;
+    margin-bottom: 40px;
+    span {
+      font-family: "WorkSans-Medium", sans-serif;
+      font-weight: 500;
+    }
+  }
+  &__progress-box {
+    display: flex;
+    gap: 0 140px;
+  }
+  &__progress-boxtext {
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-right: 50px;
+  }
+  &__progress-boxtext .text--bold {
+    font-weight: 700;
+  }
+  &__progress-table {
+    border-top: 1px solid rgba($color: #0e0d0d, $alpha: 0.23);
+  }
+  &__progress-item {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba($color: #0e0d0d, $alpha: 0.23);
+  }
+  &__progress-item + &__progress-item {
+    padding-top: 20px;
+  }
+  &__progress-item dt {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  &__progress-item dt span {
+    font-weight: 600;
+  }
+  &__progress-item dd {
+    opacity: 0.71;
+  }
+}
+
+.text--bold {
+  font-weight: 600;
+}
+
+.text--color {
+  font-weight: 600;
+  color: #f2a531;
+}
