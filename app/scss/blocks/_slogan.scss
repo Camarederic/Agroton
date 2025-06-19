@@ -1,0 +1,21 @@
+.slogan {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 115px;
+  &__text {
+    font-family: "WorkSans-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000;
+  }
+  &__title {
+    font-family: "WorkSans-SemiBold", sans-serif;
+    font-weight: 600;
+    font-size: 300px;
+    color: #f2a531;
+    line-height: 1;
+  }
+  &__img {
+    margin-top: -150px;
+  }
+}
