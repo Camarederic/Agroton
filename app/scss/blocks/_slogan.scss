@@ -19,3 +19,51 @@
     margin-top: -150px;
   }
 }
+
+@media (max-width: 1600px) {
+  .slogan {
+    &__text {
+      font-size: 26px;
+    }
+    &__title {
+      font-size: 140px;
+    }
+    &__img {
+      margin-top: -75px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .slogan {
+    &__title {
+      font-size: 64px;
+    }
+    &__img {
+      margin-top: -45px;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .slogan {
+    padding-top: 30px;
+  }
+  &__img {
+    margin-top: -35px;
+  }
+  &__text {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 510px) {
+  .slogan {
+    &__text {
+      font-size: 18px;
+    }
+    &__img {
+      margin-top: -30px;
+    }
+  }
+}
